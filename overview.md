@@ -23,8 +23,11 @@ This installation guide provides detailed instructions on how to configure and i
 3. [Client configuration](client-config/client-config.md)
 4. [Client installation](client-installation/client-installation.md)
 
-Please note: while the described configuration options are universal, the installation options are for a specific recommended set-up only.
+> Please note: while the described configuration options are universal, the installation options are for a specific recommended set-up only.
 
-### Contributing
 
-Please help us improve this guide or the IMPACT OSS software.
+## Prerequisites
+
+This Guide makes the following assumptions:
+- you have a GitHub account (https://github.com/join)
+- you have registered web domain that you have access to

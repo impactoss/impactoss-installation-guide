@@ -6,7 +6,7 @@
 
 IMPACT OSS data model contains the following principal entities:
 - Recommendations: the Recommendations and Treaty Body Observations a State receives from the different UN Human Rights Mechanisms (or Bodies)
-- Actions: the Actions a State defines to address the Recommendations
+- Actions: the Implementing actions a State defines to address the Recommendations
 - SDG Targets (optional): the targets set by the UN for the 17 Sustainable Development Goals (SDGs)
 - Users: the application users
 
@@ -29,9 +29,9 @@ Finally, also the SDGs are regarded as taxonomies, classifying the SDG Targets (
 
 ## Initialise taxonomies & categories
 
-Taxonomies should and categories could be defined in the "Seeds" file (https://github.com/impactoss/impactoss-server/blob/master/db/seeds.rb) that allows initialising the database with default content during installation and many common taxonomies and categories are included by default. Note: in addition to the default Seeds file there is also a basic Seeds file (https://github.com/impactoss/impactoss-server/blob/master/db/basic_seeds.rb) that only contains the most basic taxonomies and categories - to use the basic version, delete or rename the default Seeds file and rename the basic Seeds file to `seeds.rb`.
+Taxonomies should and categories could be defined in the basic "Seeds" file [/db/seeds.rb](https://github.com/impactoss/impactoss-server/blob/master/db/seeds.rb) that allows initialising the database with default content during installation and many common taxonomies and categories are included by default. Note: in addition to the basic default Seeds file there is also an advanced Seeds file [/db/advanced_seeds.rb](https://github.com/impactoss/impactoss-server/blob/master/db/advanced_seeds.rb) that only contains the most basic taxonomies and categories - to use the basic version, delete or rename the default Seeds file and rename the basic Seeds file to `seeds.rb`.
 
-While categories can easily be added through the UI after the initial, installation, taxonomies can not be managed using the UI but must be updated in the database, e.g. using theRails CLI (Command Line Interface).
+While categories can easily be added through the UI after the initial, installation, taxonomies can not be managed using the UI but must be updated in the database, e.g. using the Rails CLI (Command Line Interface).
 
 ### Initialise taxonomies
 
@@ -55,7 +55,7 @@ body.save!
 
 For each taxonomy the following attributes can be specified (see also [/db/schema](https://github.com/impactoss/impactoss-server/blob/master/db/schema.rb)):
 
-| Attribute | Type | Required | Desciption |
+| Attribute | Type | Required | Description |
 |---|---|---|---|
 | `title` | text | ✔️ | the taxonomy title (not currently used and overridden by client configuration) |
 | `tags_recommendations` | boolean || classifies Recommendations? |
@@ -81,12 +81,23 @@ FactoryGirl.create(
     taxonomy:body,
     title:'Universal Periodic Review',
     short_title:'UPR',
-    description:'',
-    url:''
   )
 ```
 
-Note: the taxonomy must reference a previously defined item (here: `body`)
+> Note: the taxonomy attribute must reference a taxonomy previously defined in the Seeds file (here: `taxonomy:body`)
 
+For each category the following attributes can be specified (see also [/db/schema](https://github.com/impactoss/impactoss-server/blob/master/db/schema.rb)):
 
-Updating taxonomies
+> Remember: opposed to taxonomies, categories can also be created, updated and deleted through the UI
+
+| Attribute | Type | Required | Description |
+|---|---|---|---|
+| `title` | text | ✔️ | the category title |
+| `short_title` | string | ✔️ | the category short title, used for tags|
+| `reference` | string || the category reference, should be unique, can be used for sorting |
+| `description` | text || the category decsription (supports markdown) |
+| `url` | string || a category URL if relevant |
+| `draft` | boolean || if category is draft (`true`) or public (`false`) |
+| `user_only` | boolean || if category can only tag users (`true` or `false`), relevant only for categories of taxonomy where `tags_users:true` |
+| `taxonomy_id` | integer || the taxonomy id (note: in the Seeds file use previously defined taxonomy variable instead, eg `taxonomy:body`) |
+| 'manager_id' | integer || a user id (not to be specified in Seeds file but using UI only)

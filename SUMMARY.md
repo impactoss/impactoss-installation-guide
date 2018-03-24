@@ -9,11 +9,12 @@
 
 * [Server configuration](server-config/server-config.md)
 * [Source code repository](server-config/source-code.md)
-* [Category groupings & categories](server-config/categories.md)
+* [Application settings](server-config/application.md)
+* [Email settings](server-config/email.md)
+* [Email templates](server-config/email-templates.md)
 * [Email reminders](server-config/reminders.md)
+* [Category groupings & categories](server-config/categories.md)
 * [Labels & translation](server-config/locales.md)
-* [Application options](server-config/options.md)
-* [Mail settings](server-config/email.md)
 
 ## 2. Server installation
 
@@ -36,3 +37,8 @@
 * [Client installation](client-installation/client-installation.md)
 * [Firebase](client-installation/firebase.md)
 * [Build & deploy](client-installation/deploy.md)
+
+## License
+
+* [License](LICENSE.md)
+* [Contributors](CONTRIBUTORS.md)
