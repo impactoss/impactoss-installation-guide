@@ -35,8 +35,9 @@
 ## 4. Client installation
 
 * [Overview](client-installation/client-installation.md)
-* [Firebase](client-installation/firebase.md)
-* [Build & deploy](client-installation/deploy.md)
+* [Build](client-installation/build.md)
+* [Deploy to Firebase](client-installation/deploy.md)
+* [Admin user](client-installation/admin.md)
 
 ## License
 
