@@ -7,7 +7,7 @@
 
 ## 1. Server configuration
 
-* [Server configuration](server-config/server-config.md)
+* [Overview](server-config/server-config.md)
 * [Source code repository](server-config/source-code.md)
 * [Application settings](server-config/application.md)
 * [Email settings](server-config/email.md)
@@ -18,7 +18,7 @@
 
 ## 2. Server installation
 
-* [Server installation](server-installation/server-installation.md)
+* [Overview](server-installation/server-installation.md)
 * [Heroku](server-installation/heroku.md)
 * [MailGun](server-installation/mailgun.md)
 * [AWS Document Storage](server-installation/aws.md)
@@ -26,15 +26,15 @@
 
 ## 3. Client configuration
 
-* [Client configuration](client-config/client-config.md)
+* [Overview](client-config/client-config.md)
 * [Source code repository](client-config/source-code.md)
+* [Application options](client-config/application.md)
 * [Category groupings & categories](client-config/categories.md)
-* [Application options](client-config/options.md)
 * [Theme options](client-config/theme.md)
 
 ## 4. Client installation
 
-* [Client installation](client-installation/client-installation.md)
+* [Overview](client-installation/client-installation.md)
 * [Firebase](client-installation/firebase.md)
 * [Build & deploy](client-installation/deploy.md)
 

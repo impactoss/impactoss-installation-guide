@@ -52,7 +52,7 @@ Go to "Deploy"
 - Select Deployment method "GitHub"
 - Connect to GitHub
 - Select and connect to repository (previously forked to a personal or organization account, see [Fork server source code](/server-config/source-code.md))
-- Manually deploy from "master" branch for staging/development or "production" branch for production
+- Manually deploy from "master" branch for staging/development or "production" branch for production enable automatic deploys
 
 ### Upgrade dynos
 
@@ -79,12 +79,14 @@ This will add the following config variables
 
 To set up MailGun with your custom domain, see [MailGun](/server-installation/mailgun.md)
 
-### Optional: Custom URL
+### Optional: Custom API URL
 
 To set a custom domain for your server API go to "Settings" and add your domain name, e.g. a subdomain `api.yourdomain.org`
 
 Then go to your domain registrar and update the DNS records by adding a CNAME record pointing to `api.yourdomain.org.herokudns.com`
 
-### Upgrade database
+### Recommended: Upgrade database
+
+TODO
 
 Database: Standard Postgres

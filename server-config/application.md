@@ -6,7 +6,7 @@ The application configuration file is
 [/config/application.rb](https://github.com/impactoss/impactoss-server/blob/master/config/application.rb).
 
 Here you can set
-- Timezone
+- Timezone, e.g. `config.time_zone = 'Pacific/Auckland'`
 
 ### Environment settings
 

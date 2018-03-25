@@ -1,4 +1,4 @@
-# Configure category groupings & taxonomies
+# Configure category groupings & categories
 
 ## About
 

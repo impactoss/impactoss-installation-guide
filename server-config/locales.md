@@ -10,7 +10,7 @@ Specifically there are 2 files:
 - Email text, including for password reset instructions `reset_password_instructions`:
 [/config/locales/devise.en.yml](https://github.com/impactoss/impactoss-server/blob/master/config/locales/devise.en.yml)
 
-## Translate other languages
+## Translate to other languages
 
 Translation files to other languages can be added. For details please see
 http://guides.rubyonrails.org/i18n.html
