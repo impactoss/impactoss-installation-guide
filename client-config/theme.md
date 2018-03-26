@@ -8,7 +8,7 @@ In the application theme folder ([/app/themes/](https://github.com/impactoss/imp
 
 ---
 
-### Principal theme file
+## Principal theme file
 
 To customise the default theme you can either
 - edit the existing base theme file (theme-base.js), or
@@ -116,7 +116,7 @@ Background patterns can be enabled in the settings file ([/app/themes/config.js]
 
 ---
 
-### Icons file
+## Icons file
 
 ([/app/themes/icons.js](https://github.com/impactoss/impactoss-client/blob/master/app/themes/icons.js))
 
@@ -152,7 +152,7 @@ Entity icons are:
 
 ---
 
-### Media files
+## Media files
 
 The media folder ([/app/themes/media/](https://github.com/impactoss/impactoss-client/blob/master/app/themes/media/)) contains several image files (both regular and "retina" resolutions ("@2x" for retina)) that you can either replace or add to (remember: image files need to be referenced in the theme file):
 - "headerLogo.png": the logo image shown in the header. In the config file([/app/themes/config.js](https://github.com/impactoss/impactoss-client/blob/master/app/themes/config.js)) set `SHOW_HEADER_TITLE` to `false` if the logo contains the application title or to `true` if not.

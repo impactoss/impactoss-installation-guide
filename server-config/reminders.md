@@ -30,7 +30,7 @@ The reminder email subject is set in the "labels" file, see [Labels & translatio
 
 ---
 
-### Reminder email text
+## Reminder email templates
 
 The email templates (both html and text) for the different reminders are set in
 [/app/views/due_date_mailer](https://github.com/impactoss/impactoss-server/blob/master/app/views/due_date_mailer)

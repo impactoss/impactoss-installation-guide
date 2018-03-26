@@ -38,9 +38,7 @@ Finally, also the SDGs are regarded as taxonomies, classifying the SDG Targets \
 
 Taxonomies should and categories could be defined in the "Seeds" file [/db/seeds.rb](https://github.com/impactoss/impactoss-server/blob/master/db/seeds.rb) that allows initialising the database with default content during installation and many common taxonomies and categories are included by default.
 
-> Note: in addition to the default Seeds file in the "master" branch there is also a Seeds file for a minimal set up in the "lite" branch
-
-[/db/advanced\_seeds.rb](https://github.com/impactoss/impactoss-server/blob/master/db/advanced_seeds.rb) that only contains the most basic taxonomies and categories - to use the basic version, delete or rename the default Seeds file and rename the basic Seeds file to `seeds.rb`.
+> Note: in addition to the default Seeds file in the "master" branch there is also a Seeds file for a minimal set up in the "lite" branch that only contains the most basic taxonomies and categories
 
 While categories can easily be added through the UI after the initial, installation, taxonomies can not be managed using the UI but must be updated in the database, e.g. using the Rails CLI \(Command Line Interface\).
 
@@ -111,6 +109,3 @@ For each category the following attributes can be specified \(see also [/db/sche
 | `user_only` | boolean |  | if category can only tag users \(`true` or `false`\), relevant only for categories of taxonomy where `tags_users:true` |
 | `taxonomy_id` | integer |  | the taxonomy id \(note: in the Seeds file use previously defined taxonomy variable instead, eg `taxonomy:body`\) |
 | 'manager\_id' | integer |  | a user id \(not to be specified in Seeds file but using UI only\) |
-
-
-

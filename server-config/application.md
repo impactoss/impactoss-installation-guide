@@ -1,6 +1,6 @@
 # Server settings
 
-### Application config
+## Application config
 
 The application configuration file is
 [/config/application.rb](https://github.com/impactoss/impactoss-server/blob/master/config/application.rb).
@@ -10,7 +10,7 @@ Here you can set
 
 ---
 
-### Environment settings
+## Environment settings
 
 Different environment settings are available in
 [/config/environments](https://github.com/impactoss/impactoss-server/blob/master/config/environments)
@@ -28,7 +28,7 @@ To set up your site, you will at least need to configure the procution configura
 
 ---
 
-### Email settings
+## Email settings
 
 The email address used by the application when sending out emails, including for user authentication and email reminders is set in:
 - General: [/app/mailers/application_mailer.rb](https://github.com/impactoss/impactoss-server/blob/master/app/mailers/application_mailer.rb)
