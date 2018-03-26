@@ -160,5 +160,3 @@ The media folder ([/app/themes/media/](https://github.com/impactoss/impactoss-cl
 - "homeTitle.png": title graphic on home page when `SHOW_HOME_TITLE` set to `false`.
 - "impactoss.png": IMPACT OSS platform graphic shown in the Footer
 - serveral partner logos if `SHOW_FOOTER_PARTNERS` enabled in ([/app/themes/config.js](https://github.com/impactoss/impactoss-client/blob/master/app/themes/config.js))
-
----

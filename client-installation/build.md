@@ -12,5 +12,3 @@ This assumes you have the following installed on your computer and made availabl
 1. Clone your client repository fork: `$ git clone https://github.com/[your-fork]/impactoss-client.git`
 2. Inside your local repository install dependencies: `$ yarn` (this can take a while...)
 3. Build: `$ npm run build` (again this can take a while...)
-
----

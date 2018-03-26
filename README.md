@@ -21,5 +21,3 @@ The IMPACT OSS project is maintained by the [Impact Open Source Software Trust](
 #### Licence
 
 This manual is part of the [IMPACT OSS open source software](https://github.com/impactoss/impactoss-server/) and accordingly licensed under the same MIT license, see [License](LICENSE.md)
-
----

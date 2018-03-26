@@ -21,5 +21,3 @@ Specifically you should update or review the following labels:
 #### Translate to other languages
 
 Translation files to other languages can be added here according to the default locale defined in [/app/themes/config.js](https://github.com/impactoss/impactoss-client/blob/master/app/themes/config.js).
-
----

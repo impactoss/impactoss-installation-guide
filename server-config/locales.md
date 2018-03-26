@@ -16,5 +16,3 @@ Specifically there are 2 files:
 
 Translation files to other languages can be added. For details please see
 http://guides.rubyonrails.org/i18n.html
-
----

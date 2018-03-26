@@ -107,5 +107,3 @@ For each category the following attributes can be specified (see also [/db/schem
 | `user_only` | boolean || if category can only tag users (`true` or `false`), relevant only for categories of taxonomy where `tags_users:true` |
 | `taxonomy_id` | integer || the taxonomy id (note: in the Seeds file use previously defined taxonomy variable instead, eg `taxonomy:body`) |
 | 'manager_id' | integer || a user id (not to be specified in Seeds file but using UI only)
-
----

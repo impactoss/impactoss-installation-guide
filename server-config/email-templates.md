@@ -13,5 +13,3 @@ You have access to the following fields and entities:
 - `@resource`: all receiving user fields, e.g. `@resource.email`
 
 > For more details see https://github.com/lynndylanhurley/devise_token_auth#email-template-overrides
-
----

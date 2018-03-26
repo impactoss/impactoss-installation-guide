@@ -37,5 +37,3 @@ AWS S3 document storage is use3d to store user uploaded documents, specifically 
   ```
 - create user (access type: "Programmatic access") and add to group
 - create access key and/or remember "Access key ID" and "Secret access key"
-
----

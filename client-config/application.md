@@ -50,5 +50,3 @@ In addition there are several other optional settings (in order of appearance):
 There are 2 additional fields for action entities that are disabled by default:
 - Outcome (`attribute: 'outcome'`) which can be used to describe the desired or achieved outcome of an action. To enable set `disabled: false` or delete the line `disabled: true`.
 - Indicator summary (`attribute: 'indicator_summary'`) which can be used to summarise the associated indicators or their purpose. To enable set `disabled: false` or delete the line `disabled: true`.
-
----

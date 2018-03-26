@@ -35,5 +35,3 @@ The email address used by the application when sending out emails, including for
 - Devise: [/config/initializers/devise.rb](https://github.com/impactoss/impactoss-server/blob/master/config/initializers/devise.rb)
 
 > Please make sure the email domain coincides with your mail application, eg [MailGun](server-installation/mailgun.md)
-
----

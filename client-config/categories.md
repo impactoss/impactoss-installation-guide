@@ -31,5 +31,3 @@ export const TAXONOMY_GROUPS = [
   },
 ];
 ```
-
----

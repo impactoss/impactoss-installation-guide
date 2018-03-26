@@ -16,5 +16,3 @@ The client is a React Javascript application and is a single page application th
 - admin UI
 
 ![](/assets/components.png)
-
----

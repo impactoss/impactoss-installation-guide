@@ -19,5 +19,3 @@ https://signup.mailgun.com/new/signup
 - `MAILGUN_PUBLIC_KEY` (from https://app.mailgun.com/app/account/security)
 
 See also [Heroku](/server-installation/heroku.md)
-
----

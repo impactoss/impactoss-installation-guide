@@ -90,5 +90,3 @@ Then go to your domain registrar and update the DNS records by adding a CNAME re
 
 We recommend to upgrade to the "Standard Postgres" databse for production, following the instructions provided here:
 https://devcenter.heroku.com/articles/upgrading-heroku-postgres-databases
-
----

@@ -46,4 +46,3 @@
 ## License
 
 * [License](LICENSE.md)
-* [Contributors](CONTRIBUTORS.md)

@@ -64,5 +64,3 @@ You have access to the following fields and entities:
 - `@indicator`: all indicator fields, e.g. `@indicator.title`
 - `@due_date`: all date fields, e.g. `@due_date.due_date`
 - `@category`: all category fields, e.g. `@category.id`
-
----

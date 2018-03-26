@@ -11,5 +11,3 @@ Before you start we recommend to to fork the source code repository from https:/
 3. Optional: [Configure email reminders](/server-config/reminders.md)
 4. Optional: [Configure taxonomies & categories](/server-config/categories.md)
 5. Optional: [Edit labels, text & translations](/server-config/locales.md)
-
----

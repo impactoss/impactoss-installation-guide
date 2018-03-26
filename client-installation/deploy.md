@@ -16,5 +16,3 @@
   - click "CONNECT DOMAIN"
   - follow the on screen instructions (also see here for details https://firebase.google.com/docs/hosting/custom-domain)
   - wait for SSL certificate provisioning (this can take several hours)
-
----

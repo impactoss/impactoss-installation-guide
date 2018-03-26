@@ -10,5 +10,3 @@ Before you start we recommend to to fork the source code repository from https:/
 2. [Edit labels, text & translations](/client-config/locales.md)
 3. Optional (required if changed on server): [Configure taxonomies](/client-config/categories.md)
 4. Optional: [Configure theme & branding](/client-config/theme.md)
-
----
