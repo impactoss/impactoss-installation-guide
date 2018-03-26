@@ -88,9 +88,7 @@ Entity colours are defined for
 Attribute colours
 - General attributes `attributes` and `attributesHover`
 
----
-
-### Fonts
+#### Fonts
 
 In addition to the primary font specified in the global styles file ([/app/global-styles.js](https://github.com/impactoss/impactoss-client/blob/master/app/global-styles.js)), fonts are defined by the `theme.fonts` object:
 ```
