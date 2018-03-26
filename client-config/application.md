@@ -1,4 +1,4 @@
-# General application settings
+# Client settings
 
 The application configuration file is
 [/app/themes/config.js](https://github.com/impactoss/impactoss-client/blob/master/app/themes/config.js).

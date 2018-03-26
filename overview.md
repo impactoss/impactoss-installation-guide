@@ -14,5 +14,3 @@ This installation guide provides detailed instructions on how to configure and i
 This Guide makes the following assumptions:
 - you have a **GitHub account** (https://github.com/join)
 - you have access to a **web domain**
-
----

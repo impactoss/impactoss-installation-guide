@@ -6,16 +6,14 @@
 * [Installation overview](overview.md)
 * [System components](components.md)
 
----
-
 ## 1. Server configuration
 
 * [Overview (server configuration)](server-config/server-config.md)
-* [Application settings](server-config/application.md)
-* [Email templates](server-config/email-templates.md)
-* [Email reminders](server-config/reminders.md)
-* [Taxonomies & categories (server)](server-config/categories.md)
-* [Labels & translation (server)](server-config/locales.md)
+* [Server settings](server-config/application.md)
+* [Optional: Email templates](server-config/email-templates.md)
+* [Optional: Email reminders](server-config/reminders.md)
+* [Optional: Taxonomies & categories (server)](server-config/categories.md)
+* [Optional: Labels & translation (server)](server-config/locales.md)
 
 ## 2. Server installation
 
@@ -24,15 +22,13 @@
 * [Heroku](server-installation/heroku.md)
 * [MailGun](server-installation/mailgun.md)
 
----
-
 ## 3. Client configuration
 
 * [Overview (client configuration)](client-config/client-config.md)
 * [Labels & translation (client)](client-config/locales.md)
-* [Application options](client-config/application.md)
-* [Taxonomies (client)](client-config/categories.md)
-* [Theme options](client-config/theme.md)
+* [Client settings](client-config/application.md)
+* [Optional: Taxonomies (client)](client-config/categories.md)
+* [Optional: Theme options](client-config/theme.md)
 
 ## 4. Client installation
 
@@ -40,8 +36,6 @@
 * [Build](client-installation/build.md)
 * [Deploy to Firebase](client-installation/deploy.md)
 * [Admin user](client-installation/admin.md)
-
----
 
 ## License
 

@@ -1,4 +1,4 @@
-# Application settings
+# Server settings
 
 ### Application config
 
