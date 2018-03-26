@@ -1,8 +1,8 @@
-# Configure category groupings & categories
+# Optional: Taxonomies & categories
 
-## About
+### Database overview
 
-### Principal entities
+#### Principal entities
 
 IMPACT OSS data model contains the following principal entities:
 - Recommendations: the Recommendations and Treaty Body Observations a State receives from the different UN Human Rights Mechanisms (or Bodies)
@@ -10,9 +10,9 @@ IMPACT OSS data model contains the following principal entities:
 - SDG Targets (optional): the targets set by the UN for the 17 Sustainable Development Goals (SDGs)
 - Users: the application users
 
-### Taxonomies
+#### Taxonomies ("category groupings")
 
-These entities can be classified according to multiple category groupings, also called taxonomies that need to be set up on the server - taxonomies cannot currently be managed through the UI.
+These entities can be classified according to multiple category groupings, also called taxonomies, that need to be set up on the server - taxonomies cannot currently be managed through the UI.
 
 Taxonomies can include universal classifications of recommendations used by the UN such as
 - Human Rights Mechanisms (or Bodies)
@@ -27,13 +27,21 @@ Taxonomies can include universal classifications of recommendations used by the 
 
 Finally, also the SDGs are regarded as taxonomies, classifying the SDG Targets (and optionally also recommendations or actions if desired).
 
-## Initialise taxonomies & categories
+![](/assets/categories.png)
 
-Taxonomies should and categories could be defined in the basic "Seeds" file [/db/seeds.rb](https://github.com/impactoss/impactoss-server/blob/master/db/seeds.rb) that allows initialising the database with default content during installation and many common taxonomies and categories are included by default. Note: in addition to the basic default Seeds file there is also an advanced Seeds file [/db/advanced_seeds.rb](https://github.com/impactoss/impactoss-server/blob/master/db/advanced_seeds.rb) that only contains the most basic taxonomies and categories - to use the basic version, delete or rename the default Seeds file and rename the basic Seeds file to `seeds.rb`.
+---
+
+### Initialise taxonomies & categories
+
+Taxonomies should and categories could be defined in the "Seeds" file [/db/seeds.rb](https://github.com/impactoss/impactoss-server/blob/master/db/seeds.rb) that allows initialising the database with default content during installation and many common taxonomies and categories are included by default.
+
+> Note: in addition to the default Seeds file in the "master" branch there is also a Seeds file for a minimal set up in the "lite" branch
+
+[/db/advanced_seeds.rb](https://github.com/impactoss/impactoss-server/blob/master/db/advanced_seeds.rb) that only contains the most basic taxonomies and categories - to use the basic version, delete or rename the default Seeds file and rename the basic Seeds file to `seeds.rb`.
 
 While categories can easily be added through the UI after the initial, installation, taxonomies can not be managed using the UI but must be updated in the database, e.g. using the Rails CLI (Command Line Interface).
 
-### Initialise taxonomies
+#### Initialise taxonomies
 
 Here is an example for how a taxonomy can be set up in the Seeds file:
 
@@ -70,9 +78,7 @@ For each taxonomy the following attributes can be specified (see also [/db/schem
 | `groups_recommendations_default` | integer || if Recommendations are grouped (or subgrouped) by category in Recommendation lists. 1: primary group, 2: subgroup |
 | `groups_sdgtargets_default` | integer || if SDG Targets are grouped (or subgrouped) by category in SDG Target lists. 1: primary group, 2: subgroup |
 
-
-
-## Initialise categories
+#### Initialise categories
 
 Here an example how categories can be initialised using FactoryGirl:
 ```
@@ -101,3 +107,5 @@ For each category the following attributes can be specified (see also [/db/schem
 | `user_only` | boolean || if category can only tag users (`true` or `false`), relevant only for categories of taxonomy where `tags_users:true` |
 | `taxonomy_id` | integer || the taxonomy id (note: in the Seeds file use previously defined taxonomy variable instead, eg `taxonomy:body`) |
 | 'manager_id' | integer || a user id (not to be specified in Seeds file but using UI only)
+
+---

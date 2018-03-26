@@ -2,42 +2,46 @@
 
 ## Introduction
 
-* [About IMPACT OSS](README.md)
-* [Overview](overview.md)
+* [About](README.md)
+* [Installation overview](overview.md)
+* [System components](components.md)
+
+---
 
 ## 1. Server configuration
 
-* [Overview](server-config/server-config.md)
-* [Source code repository](server-config/source-code.md)
+* [Overview (server configuration)](server-config/server-config.md)
 * [Application settings](server-config/application.md)
-* [Email settings](server-config/email.md)
 * [Email templates](server-config/email-templates.md)
 * [Email reminders](server-config/reminders.md)
-* [Category groupings & categories](server-config/categories.md)
-* [Labels & translation](server-config/locales.md)
+* [Taxonomies & categories (server)](server-config/categories.md)
+* [Labels & translation (server)](server-config/locales.md)
 
 ## 2. Server installation
 
-* [Overview](server-installation/server-installation.md)
+* [Overview (server installation)](server-installation/server-installation.md)
+* [AWS Document Storage](server-installation/aws.md)
 * [Heroku](server-installation/heroku.md)
 * [MailGun](server-installation/mailgun.md)
-* [AWS Document Storage](server-installation/aws.md)
-* [Build & deploy](server-installation/deploy.md)
+
+---
 
 ## 3. Client configuration
 
-* [Overview](client-config/client-config.md)
-* [Source code repository](client-config/source-code.md)
+* [Overview (client configuration)](client-config/client-config.md)
+* [Labels & translation (client)](client-config/locales.md)
 * [Application options](client-config/application.md)
-* [Category groupings & categories](client-config/categories.md)
+* [Taxonomies (client)](client-config/categories.md)
 * [Theme options](client-config/theme.md)
 
 ## 4. Client installation
 
-* [Overview](client-installation/client-installation.md)
+* [Overview (client installation)](client-installation/client-installation.md)
 * [Build](client-installation/build.md)
 * [Deploy to Firebase](client-installation/deploy.md)
 * [Admin user](client-installation/admin.md)
+
+---
 
 ## License
 

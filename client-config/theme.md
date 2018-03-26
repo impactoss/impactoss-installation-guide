@@ -1,10 +1,12 @@
-# Application theme
+# Optional: Theme
 
 In the application theme folder ([/app/themes/](https://github.com/impactoss/impactoss-client/tree/master/app/themes)) are
 - one or more theme files (e.g. the base theme [/app/themes/theme-base.js](https://github.com/impactoss/impactoss-client/blob/master/app/themes/theme-base.js)) that control the theme and determine the application branding,
 - an icons file  ([/app/themes/icons.js](https://github.com/impactoss/impactoss-client/blob/master/app/themes/icons.js)) for all icons including the taxonomy icons
 - a media folder ([/app/themes/media/](https://github.com/impactoss/impactoss-client/tree/master/app/themes/media)) for all brand and partner images
 - the application configuration file ([/app/themes/config.js](https://github.com/impactoss/impactoss-client/blob/master/app/themes/config.js)), also see [General application settings](/client-config/application.md)
+
+---
 
 ### Principal theme file
 
@@ -86,7 +88,9 @@ Entity colours are defined for
 Attribute colours
 - General attributes `attributes` and `attributesHover`
 
-#### Fonts
+---
+
+### Fonts
 
 In addition to the primary font specified in the global styles file ([/app/global-styles.js](https://github.com/impactoss/impactoss-client/blob/master/app/global-styles.js)), fonts are defined by the `theme.fonts` object:
 ```
@@ -111,6 +115,8 @@ Background patterns can be enabled in the settings file ([/app/themes/config.js]
 - show pattern in header: `SHOW_HEADER_PATTERN` (true/false)
 - show pattern in sidebar headers: `SHOW_SIDEBAR_HEADER_PATTERN` (true/false)
 - show header pattern behind home page graphic: `SHOW_HEADER_PATTERN_HOME_GRAPHIC` (true/false)
+
+---
 
 ### Icons file
 
@@ -146,6 +152,8 @@ Entity icons are:
 - SDG Targets `reports`
 - User roles `roles`
 
+---
+
 ### Media files
 
 The media folder ([/app/themes/media/](https://github.com/impactoss/impactoss-client/blob/master/app/themes/media/)) contains several image files (both regular and "retina" resolutions ("@2x" for retina)) that you can either replace or add to (remember: image files need to be referenced in the theme file):
@@ -154,3 +162,5 @@ The media folder ([/app/themes/media/](https://github.com/impactoss/impactoss-cl
 - "homeTitle.png": title graphic on home page when `SHOW_HOME_TITLE` set to `false`.
 - "impactoss.png": IMPACT OSS platform graphic shown in the Footer
 - serveral partner logos if `SHOW_FOOTER_PARTNERS` enabled in ([/app/themes/config.js](https://github.com/impactoss/impactoss-client/blob/master/app/themes/config.js))
+
+---

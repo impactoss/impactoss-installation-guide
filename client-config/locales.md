@@ -1,6 +1,6 @@
 # Labels & translations
 
-## Labels & text files
+#### Labels & text files
 
 Labels and text used by the client application are defined for the default language English - Great Britain ("en-GB") in folder
 [/app/translations](https://github.com/impactoss/impactoss-client/tree/master/app/translations).
@@ -18,6 +18,8 @@ Specifically you should update or review the following labels:
 - Home page meta title: `"app.containers.HomePage.pageTitle"`
 - Home page meta description: `"app.containers.HomePage.pageDescription"`
 
-## Translate to other languages
+#### Translate to other languages
 
 Translation files to other languages can be added here according to the default locale defined in [/app/themes/config.js](https://github.com/impactoss/impactoss-client/blob/master/app/themes/config.js).
+
+---

@@ -1,4 +1,4 @@
-# General application settings
+# Application settings
 
 ### Application config
 
@@ -7,6 +7,8 @@ The application configuration file is
 
 Here you can set
 - Timezone, e.g. `config.time_zone = 'Pacific/Auckland'`
+
+---
 
 ### Environment settings
 
@@ -23,3 +25,15 @@ To set up your site, you will at least need to configure the procution configura
 - Mail server domain: `config.action_mailer.smtp_settings.domain`
 - Mail server URL host: `config.action_mailer.default_url_options.host`
 - Mail server asset host: `config.action_mailer.asset_host`
+
+---
+
+### Email settings
+
+The email address used by the application when sending out emails, including for user authentication and email reminders is set in:
+- General: [/app/mailers/application_mailer.rb](https://github.com/impactoss/impactoss-server/blob/master/app/mailers/application_mailer.rb)
+- Devise: [/config/initializers/devise.rb](https://github.com/impactoss/impactoss-server/blob/master/config/initializers/devise.rb)
+
+> Please make sure the email domain coincides with your mail application, eg [MailGun](server-installation/mailgun.md)
+
+---

@@ -1,18 +1,18 @@
 # Heroku
 
-### Sign up
+#### Sign up
 
 [Sign up](https://signup.heroku.com) for a free account and/or [log in](https://id.heroku.com/login)
 
-### Set up billing
+#### Set up billing
 
 Go to "account settings" > "Billing" and add your credit card details.
 
-### Create New App
+#### Create New App
 
 Create New App with a name of your liking.
 
-### Set up config variables  
+#### Set up config variables  
 
 Go to "Settings", click "Reveal Config Vars" and add
 - `RAILS_ENV`: `production`
@@ -27,12 +27,12 @@ Go to "Settings", click "Reveal Config Vars" and add
 - `AWS_SECRET_ACCESS_KEY`: your AWS secret access key [see AWS S3](server-installation/aws.md)
 - `SADATA_SECRET_KEY_BASE`: a random secret key, generated e.g. using 'rake secret' or [online (eg 512-bit, enable Hex)](http://www.allkeysgenerator.com/Random/Security-Encryption-Key-Generator.aspx)
 
-### Recommended: install Heroku CLI
+#### Recommended: install Heroku CLI
 
 - Go to https://devcenter.heroku.com/articles/heroku-cli and follow the download and installation instructions.
 - Once installed login to your Heroku account
 
-### Set up database
+#### Set up database
 
 Go to "Resources"
 - Search for "Heroku Postgres" add-on
@@ -46,15 +46,16 @@ Initialise data according to Seed file (see [categories](/server-config/categori
 - Heroku dashboard console: More > Run Console: `rake db:seed `; or
 - Heroku CLI: run `heroku run rake db:seed --app your-app`
 
-### Connect with GitHub repository
+#### Connect with GitHub repository
 
 Go to "Deploy"
 - Select Deployment method "GitHub"
 - Connect to GitHub
 - Select and connect to repository (previously forked to a personal or organization account, see [Fork server source code](/server-config/source-code.md))
-- Manually deploy from "master" branch for staging/development or "production" branch for production enable automatic deploys
+- Manually deploy from "master" branch for staging/development or "production" branch for production; or
+- Enable automatic deploys
 
-### Upgrade dynos
+#### Upgrade dynos
 
 By default Heroku will be set up with free dynos for your application server "web" and the email scheduler "clock". These free dynos will automatically "go to sleep" when idle resulting in long wait times - to prevent this upgrade to the "Hobby" plan.
 
@@ -62,7 +63,7 @@ Go to "Resource"
 - Click "Upgrade to Hobby..."
 - Select "Hobby" to upgrade the "web" dyno
 
-### Initialise MailGun
+#### Initialise MailGun
 
 Go to "Resources"
 - Search for "MailGun" add-on
@@ -79,14 +80,15 @@ This will add the following config variables
 
 To set up MailGun with your custom domain, see [MailGun](/server-installation/mailgun.md)
 
-### Optional: Custom API URL
+#### Optional: Custom API URL
 
 To set a custom domain for your server API go to "Settings" and add your domain name, e.g. a subdomain `api.yourdomain.org`
 
 Then go to your domain registrar and update the DNS records by adding a CNAME record pointing to `api.yourdomain.org.herokudns.com`
 
-### Recommended: Upgrade database
+#### Recommended: Upgrade database
 
-TODO
+We recommend to upgrade to the "Standard Postgres" databse for production, following the instructions provided here:
+https://devcenter.heroku.com/articles/upgrading-heroku-postgres-databases
 
-Database: Standard Postgres
+---

@@ -12,3 +12,5 @@ At the outset the application is installed without any users. While users can be
   - promote user: `u.roles << r`
   - go to your client UI and reload to verify, e.g. by making sure you see the additional "User admin" and "Page admin" top menu items
   - set all other roles and privileges: go to your user profile (e.g. by clicking button with your name on the top menu), click "EDIT", click "SAVE"
+
+---
