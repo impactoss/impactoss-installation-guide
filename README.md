@@ -1,4 +1,4 @@
-![](/assets/logo.png)
+![](/assets/header.png)
 # Installation Guide
 
 This installation guide provides detailed instructions on how to configure and install IMPACT OSS. To start go to
