@@ -26,6 +26,9 @@ To set up your site, you will at least need to configure the procution configura
 - Mail server URL host: `config.action_mailer.default_url_options.host`
 - Mail server asset host: `config.action_mailer.asset_host`
 
+Optionally set Action Mailer settings (alternatively set in server environment variables, see [Heroku](/server-installation/heroku.md))
+- Action mailer host and protocol: `config.action_mailer.default_url_options`
+- Action mailer asset host: `config.action_mailer.asset_host`
 ---
 
 ## Email settings

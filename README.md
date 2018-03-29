@@ -6,6 +6,8 @@ This installation guide provides detailed instructions on how to configure and i
 * **[Installation overview](/overview.md)** and learn about the installation process or
 * **[System components](/components.md)** for an overview of high-level system components.
 
+> Please note: you can download a PDF or other eBook version of this guide at https://www.gitbook.com/book/impactoss/impact-oss-installation-guide
+
 ---
 
 #### About IMPACT OSS

@@ -7,6 +7,8 @@ Labels and text used by the client application are defined for the default langu
 
 You can update all application text and labels for your language (default "en-GB.json") in [/app/themes/config.js](https://github.com/impactoss/impactoss-client/blob/master/app/themes/config.js) (see [General application settings](/client-config/application.md)).
 
+> PLease note: labels can reference dynamic content using tags `{dynamic field}` populated by the application during runtime. These tags should not be removed.
+
 Specifically you should update or review the following labels:
 - Contact email: `"app.components.Footer.contact.email"` and `"app.components.Footer.contact.anchor"`
 - Publisher website: `"app.components.Footer.responsible.url"` and `"app.components.Footer.responsible.anchor"`

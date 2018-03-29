@@ -5,7 +5,7 @@ In addition to setting up the taxonomies on the server (see [Category groupings 
 This requires the following:
 - set up taxonomy groups (see below)
 - set up taxonomy titles and labels (see [Labels](/client-config/locales.md))
-- set up taxonomy colours and icons (see [Themes](/client-config/locales.md))
+- set up taxonomy colours and icons (see [Themes](/client-config/theme.md))
 
 > Note: as for the server code there is also a minimal set-up in the "lite" branch in addition to the default configuration in the "master" branch
 

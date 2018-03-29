@@ -12,6 +12,7 @@ AWS S3 document storage is use3d to store user uploaded documents, specifically 
 - create bucket
 - enter bucket name and select region (e.g. US West (Oregon)) - remember region id (e.g. "us-west-2")
 - set permissions: under "manage public permissions" select "Grant public access to this bucket"
+- remember "bucket name" for [Heroku](/server-installation/heroku.md) set-up
 
 #### Set up user
 
@@ -36,4 +37,4 @@ AWS S3 document storage is use3d to store user uploaded documents, specifically 
   }
   ```
 - create user (access type: "Programmatic access") and add to group
-- create access key and/or remember "Access key ID" and "Secret access key"
+- create access key and/or remember "Access key ID" and "Secret access key" for [Heroku](/server-installation/heroku.md) set-up
