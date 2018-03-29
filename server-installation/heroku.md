@@ -25,7 +25,11 @@ Go to "Settings", click "Reveal Config Vars" and add
 - `AWS_BUCKET_REGION`: e.g. `us-west-2`, your AWS bucket region [see AWS S3](server-installation/aws.md)
 - `AWS_ACCESS_KEY_ID`: your AWS access key id [see AWS S3](server-installation/aws.md)
 - `AWS_SECRET_ACCESS_KEY`: your AWS secret access key [see AWS S3](server-installation/aws.md)
+- `S3_BUCKET_NAME`: your AWS S3 bucket name [see AWS S3](server-installation/aws.md)
 - `SADATA_SECRET_KEY_BASE`: a random secret key, generated e.g. using 'rake secret' or [online (eg 512-bit, enable Hex)](http://www.allkeysgenerator.com/Random/Security-Encryption-Key-Generator.aspx)
+- `ACTION_MAILER_HOST`: your server API url without protocol, e.g. 'api.impactoss.org' (alternatively set in [app config](/server-config/application.md))
+- `ACTION_MAILER_PROTOCOL`: your server API protocol, e.g. 'https' (alternatively set in [app config](/server-config/application.md))
+- `ACTION_MAILER_ASSET_HOST`: your server API url, e.g. 'https://api.impactoss.org' (alternatively set in [app config](/server-config/application.md))
 
 #### Recommended: install Heroku CLI
 

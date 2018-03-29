@@ -11,3 +11,5 @@ Before you start we recommend to to fork the source code repository from https:/
 3. Optional: [Configure email reminders](/server-config/reminders.md)
 4. Optional: [Configure taxonomies & categories](/server-config/categories.md)
 5. Optional: [Edit labels, text & translations](/server-config/locales.md)
+
+> Note: while `master` and `production` branches are set up with the default configuration, we have also included a basic configuration with limited taxonomies in the `rights-only-configuration` branch which is compatible with the branch of the same name of the client repository (see [Client Configuration](/client-config/client-config.md)) 

@@ -25,8 +25,8 @@
 ## 3. Client configuration
 
 * [Overview (client configuration)](client-config/client-config.md)
-* [Labels & translation (client)](client-config/locales.md)
 * [Client settings](client-config/application.md)
+* [Labels & translation (client)](client-config/locales.md)
 * [Optional: Taxonomies (client)](client-config/categories.md)
 * [Optional: Theme options](client-config/theme.md)
 
@@ -37,6 +37,6 @@
 * [Deploy to Firebase](client-installation/deploy.md)
 * [Admin user](client-installation/admin.md)
 
-## License
+## Appendix
 
 * [License](LICENSE.md)

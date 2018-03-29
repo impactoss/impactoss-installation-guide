@@ -10,3 +10,5 @@ Before you start we recommend to to fork the source code repository from https:/
 2. [Edit labels, text & translations](/client-config/locales.md)
 3. Optional (required if changed on server): [Configure taxonomies](/client-config/categories.md)
 4. Optional: [Configure theme & branding](/client-config/theme.md)
+
+> Note: while the `master` branch are set up with the default configuration, we have also included a basic configuration with limited taxonomies in the `rights-only-configuration` branch which is compatible with the branch of the same name of the server repository (see [Server Configuration](/server-config/server-config.md)) 
