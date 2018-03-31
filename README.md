@@ -20,6 +20,8 @@ IMPACT OSS is based on [Sadata](https://github.com/nmrf/sadata), the platform in
 
 The IMPACT OSS project is maintained by the [Impact Open Source Software Trust](http://impactoss.org/). The creation of this Installation Guide was kindly supported by the [Universal Rights Group Geneva](http://www.universal-rights.org/) and the [Permanent Mission of the Republic of Singapore, Geneva](https://www.mfa.gov.sg/content/mfa/overseasmission/geneva.html).
 
+![](/assets/universal-rights-group.png)![](/assets/singapore-mission-geneva.png)
+
 #### Licence
 
 This manual is part of the [IMPACT OSS open source software](https://github.com/impactoss/impactoss-server/) and accordingly licensed under the same MIT license, see [License](LICENSE.md)
