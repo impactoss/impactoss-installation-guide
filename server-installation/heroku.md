@@ -42,14 +42,6 @@ Go to "Resources"
 - Search for "Heroku Postgres" add-on
 - Select and provision "Hobby Dev" for staging/development or "Standard 0" for production (you can also upgrade later)
 
-Create the database tables either using
-- Heroku dashboard console: More > Run Console: `rake db:migrate`; or
-- Heroku CLI: run `heroku run rake db:migrate --app your-app`
-
-Initialise data according to Seed file (see [categories](/server-config/categories.md)) either using
-- Heroku dashboard console: More > Run Console: `rake db:seed `; or
-- Heroku CLI: run `heroku run rake db:seed --app your-app`
-
 #### Connect with GitHub repository
 
 Go to "Deploy"
@@ -58,6 +50,18 @@ Go to "Deploy"
 - Select and connect to repository (previously forked to a personal or organization account, see [Fork server source code](/server-config/source-code.md))
 - Manually deploy from "master" branch for staging/development or "production" branch for production; or
 - Enable automatic deploys
+
+#### Initialise database
+
+Create the database tables either using
+- Heroku dashboard console: More > Run Console: `rake db:migrate`; or
+- Heroku CLI: run `heroku run rake db:migrate --app your-app`
+
+Initialise data according to Seed file (see [categories](/server-config/categories.md)) either using
+- Heroku dashboard console: More > Run Console: `rake db:seed `; or
+- Heroku CLI: run `heroku run rake db:seed --app your-app`
+
+> Note: if there are any errors during processing your seed file, your database may end up with only some of your content created - running your seed file again can lead to duplicate entries. There wore it is recommended to reset your database `heroku pg:reset DATABASE --app your-app --confirm your-app`, and again create your tables (see above) before running your Seed file again
 
 #### Upgrade dynos
 
