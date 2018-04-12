@@ -18,7 +18,7 @@
 ## 2. Server installation
 
 * [Overview \(server installation\)](server-installation/server-installation.md)
-* [AWS Document Storage](server-installation/aws.md)
+* [AWS document storage](server-installation/aws.md)
 * [Heroku](server-installation/heroku.md)
 * [MailGun](server-installation/mailgun.md)
 
