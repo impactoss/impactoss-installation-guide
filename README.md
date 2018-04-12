@@ -1,4 +1,4 @@
-![](/assets/logo.png)
+![](/assets/header.png)
 # Installation Guide
 
 This installation guide provides detailed instructions on how to configure and install IMPACT OSS. To start go to
@@ -19,6 +19,8 @@ IMPACT OSS is based on [Sadata](https://github.com/nmrf/sadata), the platform in
 #### Credits
 
 The IMPACT OSS project is maintained by the [Impact Open Source Software Trust](http://impactoss.org/). The creation of this Installation Guide was kindly supported by the [Universal Rights Group Geneva](http://www.universal-rights.org/) and the [Permanent Mission of the Republic of Singapore, Geneva](https://www.mfa.gov.sg/content/mfa/overseasmission/geneva.html).
+
+![](/assets/universal-rights-group.png)![](/assets/singapore-mission-geneva.png)
 
 #### Licence
 
