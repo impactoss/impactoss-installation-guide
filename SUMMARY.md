@@ -35,7 +35,7 @@
 * [Overview \(client installation\)](client-installation/client-installation.md)
 * [Build](client-installation/build.md)
 * [Deploy to Firebase](client-installation/deploy.md)
-* [Admin User](client-installation/admin.md)
+* [Set up admin user](client-installation/admin.md)
 
 ## Appendix
 
