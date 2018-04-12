@@ -12,6 +12,14 @@ Before you start we recommend to to fork the source code repository from https:/
 4. Optional: [Configure taxonomies & categories](/server-config/categories.md)
 5. Optional: [Edit labels, text & translations](/server-config/locales.md)
 
-Please note: in addition to the `master` and `production` branches that reflect the default configuration, we have also included additional demo configurations (with kind support of [Universal Rights Group Geneva](http://www.universal-rights.org/) and the [Permanent Mission of the Republic of Singapore, Geneva](https://www.mfa.gov.sg/content/mfa/overseasmission/geneva.html)):
-* branch `demo-rights`:  the "Rights" configuration with SDGs disabled and compatible with the branch of the same name of the client repository (see [Client Configuration](/client-config/client-config.md)) - [click here to go to branch](https://github.com/impactoss/impactoss-server/tree/demo-rights)
-* branch `demo-sgds`:  a configuration with optional SDGs enabled and compatible with the branch of the same name of the client repository (see [Client Configuration](/client-config/client-config.md)) - [click here to go to branch](https://github.com/impactoss/impactoss-server/tree/demo-sdgs)
+---
+
+#### Demo configuration options
+
+In addition to the `master` and `production` branches that reflect the default configuration, we have also included additional demo configurations (with kind support of [Universal Rights Group Geneva](http://www.universal-rights.org/) and the [Permanent Mission of the Republic of Singapore, Geneva](https://www.mfa.gov.sg/content/mfa/overseasmission/geneva.html)):
+* branch `demo-rights`:  the "Rights" configuration with SDGs disabled and compatible with the branch of the same name of the client repository (see [Client Configuration](/client-config/client-config.md))
+  * Code: https://github.com/impactoss/impactoss-server/tree/demo-rights
+  * Online demo: https://demo-rights.impactoss.org/
+* branch `demo-sgds`:  a configuration with optional SDGs enabled and compatible with the branch of the same name of the client repository (see [Client Configuration](/client-config/client-config.md))
+  * Code: https://github.com/impactoss/impactoss-server/tree/demo-sdgs
+  * Online demo: https://demo-sdgs.impactoss.org/

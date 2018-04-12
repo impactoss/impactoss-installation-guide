@@ -11,6 +11,14 @@ Before you start we recommend to to fork the source code repository from https:/
 3. Optional (required if changed on server): [Configure taxonomies](/client-config/categories.md)
 4. Optional: [Configure theme & branding](/client-config/theme.md)
 
+---
+
+#### Demo configuration options
+
 Please note: in addition to the `master` branch that reflects the default configuration, we have also included additional demo configurations (with kind support of [Universal Rights Group Geneva](http://www.universal-rights.org/) and the [Permanent Mission of the Republic of Singapore, Geneva](https://www.mfa.gov.sg/content/mfa/overseasmission/geneva.html)):
-* branch `demo-rights`:  the "Rights" configuration with SDGs disabled and compatible with the branch of the same name of the client repository ([Server Configuration](/server-config/server-config.md)) - [click here to go to branch](https://github.com/impactoss/impactoss-client/tree/demo-rights)
-* branch `demo-sgds`:  a configuration with optional SDGs enabled and compatible with the branch of the same name of the client repository (see [Server Configuration](/server-config/server-config.md)) - [click here to go to branch](https://github.com/impactoss/impactoss-client/tree/demo-sdgs)
+* branch `demo-rights`:  the "Rights" configuration with SDGs disabled and compatible with the branch of the same name of the client repository ([Server Configuration](/server-config/server-config.md))
+  * Code: https://github.com/impactoss/impactoss-client/tree/demo-rights
+  * Online demo: https://demo-rights.impactoss.org/
+* branch `demo-sgds`:  a configuration with optional SDGs enabled and compatible with the branch of the same name of the client repository (see [Server Configuration](/server-config/server-config.md))
+  * Code: https://github.com/impactoss/impactoss-client/tree/demo-sdgs
+  * Online demo: https://demo-sdgs.impactoss.org/
