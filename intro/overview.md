@@ -1,6 +1,6 @@
 ### Installation overview
 
-This installation guide provides detailed instructions on how to configure and install both server and client applications (also see [System components](/components.md)). Accordingly this guide is split into 4 main parts:
+This installation guide provides detailed instructions on how to configure and install both server and client applications (also see [System components](/intro/components.md)). Accordingly this guide is split into 4 main parts:
 
 1. **[Server configuration](server-config/server-config.md)**
 2. **[Server installation](server-installation/server-installation.md)**
