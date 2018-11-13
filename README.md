@@ -27,7 +27,7 @@ The IMPACT OSS project is maintained by the [Impact Open Source Software Trust](
 
 ![](/assets/universal-rights-group.png)![](/assets/singapore-mission-geneva.png)
 
-For more information on the development history and credits for IMPACT OSS please take a look at [**History**](/appendix/history.md).
+For more information on the history of IMPACT OSS please take a look at [**History**](/appendix/history.md).
 
 ---
 
