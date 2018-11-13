@@ -14,13 +14,17 @@ This installation guide provides detailed instructions on how to configure and i
 
 IMPACT OSS is an Open Source Software (OSS) for Integrated Management and Planning of Actions (IMPACT), created to assist States with coordinating and monitoring implementation of human rights and the Sustainable Development Goals (SDGs).
 
-IMPACT OSS is based on [Sadata](https://github.com/nmrf/sadata), the platform initially designed and developed by Ashley Bowe and [Unfold Data](http://unfolddata.com) for Samoa's National Mechanism for Reporting and Follow-up (NMRF), and was enhanced by Unfold Data for the [New Zealand Human Rights Commission](http://hrc.co.nz/) to replace the first version of its interactive [National Plan of Action](http://npa.hrc.co.nz) (also designed and developed by Unfold Data) that to some extent can be considered a conceptual ancestor of Sadata.
+---
 
 #### Credits
 
 The IMPACT OSS project is maintained by the [Impact Open Source Software Trust](http://impactoss.org/). The creation of this Installation Guide was kindly supported by the [Universal Rights Group Geneva](http://www.universal-rights.org/) and the [Permanent Mission of the Republic of Singapore, Geneva](https://www.mfa.gov.sg/content/mfa/overseasmission/geneva.html).
 
 ![](/assets/universal-rights-group.png)![](/assets/singapore-mission-geneva.png)
+
+For more information on the development history and credits for IMPACT OSS please take a look at [**History**](/appendix/history.md).
+
+---
 
 #### Licence
 
