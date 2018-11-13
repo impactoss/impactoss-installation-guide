@@ -1,4 +1,4 @@
-# Optional: Theme
+### Optional: Theme
 
 In the application theme folder ([/app/themes/](https://github.com/impactoss/impactoss-client/tree/master/app/themes)) are
 - one or more theme files (e.g. the base theme [/app/themes/theme-base.js](https://github.com/impactoss/impactoss-client/blob/master/app/themes/theme-base.js)) that control the theme and determine the application branding,
@@ -8,7 +8,7 @@ In the application theme folder ([/app/themes/](https://github.com/impactoss/imp
 
 ---
 
-## Principal theme file
+#### Principal theme file
 
 To customise the default theme you can either
 - edit the existing base theme file (theme-base.js), or
@@ -18,7 +18,7 @@ When creating a copy please make sure to update the theme file in [/app/app.js](
 
 The theme file specifies the following:
 
-#### Media file references
+##### Media file references
 
 All image files from the "/app/themes/media/" folder, including up to 6 partner logos if enabled (see [Settings]((/client-config/application.md))), must be imported (e.g. `import headerLogo from 'themes/media/headerLogo.png';`) and referenced in the global media object:
 ```
@@ -40,7 +40,7 @@ theme.media = {
 
 > Note: in addition to the regular image, it is reocmmended to provide a high resolution "retina" image identified by the "@2x" in the filename and the `2x` in the variable name.
 
-#### Colour palettes
+##### Colour palettes
 
 You can set custom colours according to your branding requirements and design preferences in 4 principal colour palettes expressed either as an array of colours `[ "#111". ... ]` or using a Coolors URL e.g. `coolorsToHex('https://coolors.co/0063b5-0070cc-0077d8-ffffff-ffffff')`:
 - primary brand colours `primary`: 4 custom colours plus white (dark to light)
@@ -60,7 +60,7 @@ These general palettes are then referenced (using palette name and colour index 
 - Text colours referencing "dark" and "primary" palettes: `text: [dark[0], dark[3], primary[4]]` (#primaryFont, #secondaryFont, #inverse)
 - Default button referencing primary palette for text and background colours `buttonDefault: [primary[4], primary[2]]` ('#text', '#bg')
 
-#### Taxonomy and entity colours
+##### Taxonomy and entity colours
 
 Specific colours are defined as arrays for each configured taxonomy (see [Categories](/client-config/categories.md)) where the array index (starting with 0) refers to the taxonomy id as set in the database (usually starting with 1):
 - regular colours `taxonomies: [ '#unused', #taxon1, #taxon2, ... ]`
@@ -88,7 +88,7 @@ Entity colours are defined for
 Attribute colours
 - General attributes `attributes` and `attributesHover`
 
-#### Fonts
+##### Fonts
 
 In addition to the primary font specified in the global styles file ([/app/global-styles.js](https://github.com/impactoss/impactoss-client/blob/master/app/global-styles.js)), fonts are defined by the `theme.fonts` object:
 ```
@@ -101,11 +101,11 @@ theme.fonts = {
 };
 ```
 
-#### Sizes
+##### Sizes
 
 Text and other UI sizes are defined by the `theme.sizes` object. Please also check the global styles ([/app/global-styles.js](https://github.com/impactoss/impactoss-client/blob/master/app/global-styles.js)) and settings ([/app/themes/config.js](https://github.com/impactoss/impactoss-client/blob/master/app/themes/config.js)) files.
 
-#### Patterns
+##### Patterns
 
 Background patterns for header and sidebar headers can be defined as "datauris" in `themes.backgroundImages`.
 
@@ -116,7 +116,7 @@ Background patterns can be enabled in the settings file ([/app/themes/config.js]
 
 ---
 
-## Icons file
+#### Icons file
 
 ([/app/themes/icons.js](https://github.com/impactoss/impactoss-client/blob/master/app/themes/icons.js))
 
@@ -128,7 +128,7 @@ iconName: {
 }
 ```
 
-#### Taxonomy icons
+##### Taxonomy icons
 
 Icons are specified for each taxonomy and should be configured to match your taxonomy set up ([Categories](/client-config/categories.md))), where the name references the server taxonomy id e.g. the "Reporting cycle" icon assuming that the taxonomy id is "2":
 ```
@@ -140,7 +140,7 @@ taxonomy_2: {
 },
 ```
 
-#### Entity icons
+##### Entity icons
 
 Entity icons are:
 - Actions `measures`
@@ -152,7 +152,7 @@ Entity icons are:
 
 ---
 
-## Media files
+#### Media files
 
 The media folder ([/app/themes/media/](https://github.com/impactoss/impactoss-client/blob/master/app/themes/media/)) contains several image files (both regular and "retina" resolutions ("@2x" for retina)) that you can either replace or add to (remember: image files need to be referenced in the theme file):
 - "headerLogo.png": the logo image shown in the header. In the config file([/app/themes/config.js](https://github.com/impactoss/impactoss-client/blob/master/app/themes/config.js)) set `SHOW_HEADER_TITLE` to `false` if the logo contains the application title or to `true` if not.

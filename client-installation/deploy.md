@@ -1,4 +1,4 @@
-# Deploy to Firebase
+### Deploy to Firebase
 
 1. Sign in to Google Firebase using a Google account https://firebase.google.com/
 2. Go to Firebase console: https://console.firebase.google.com

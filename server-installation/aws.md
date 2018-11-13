@@ -1,10 +1,12 @@
-# AWS S3 document storage
+### AWS S3 document storage
 
 AWS S3 document storage is use3d to store user uploaded documents, specifically used for attaching documents to progress updates
 
 #### Sign up to Amazon Web Services (AWS)
 
 [Sign up](https://portal.aws.amazon.com/billing/signup) for a free account and/or [log in](https://signin.aws.amazon.com/signin)
+
+---
 
 #### Set up S3 bucket
 
@@ -13,6 +15,8 @@ AWS S3 document storage is use3d to store user uploaded documents, specifically 
 - enter bucket name and select region (e.g. US West (Oregon)) - remember region id (e.g. "us-west-2")
 - set permissions: under "manage public permissions" select "Grant public access to this bucket"
 - remember "bucket name" for [Heroku](/server-installation/heroku.md) set-up
+
+---
 
 #### Set up user
 

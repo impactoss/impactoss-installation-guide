@@ -1,4 +1,9 @@
-# Overview: Server installation
+
+---
+## 3. Server installation
+---
+
+### Overview
 
 The server application requires different components that need to be set up, including
 - Application server for controlling access to the database

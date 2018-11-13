@@ -1,4 +1,9 @@
-# Overview: Server configuration
+
+---
+## 2. Server configuration
+---
+
+### Overview
 
 The IMPACT OSS server is a Rails app.
 

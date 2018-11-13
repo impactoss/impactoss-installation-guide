@@ -1,4 +1,4 @@
-# Optional: Taxonomies
+### Optional: Taxonomies
 
 In addition to setting up the taxonomies on the server (see [Category groupings & categories](/server-config/categories.md)), you will need to configure them also on the client.
 
@@ -8,6 +8,8 @@ This requires the following:
 - set up taxonomy colours and icons (see [Themes](/client-config/theme.md))
 
 > Note: as for the server code there is also a minimal set-up in the "lite" branch in addition to the default configuration in the "master" branch
+
+---
 
 #### Taxonomy groups
 

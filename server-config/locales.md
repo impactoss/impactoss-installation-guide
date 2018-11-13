@@ -1,4 +1,4 @@
-# Optional: Labels & translations
+### Optional: Labels & translations
 
 #### Labels & text files
 
@@ -9,6 +9,8 @@ Specifically there are 2 files:
 - General labels, inluding email subjects for email reminders `due_date_mailer` and API website `sitewide_header`: [/config/locales/en.yml](https://github.com/impactoss/impactoss-server/blob/master/config/locales/en.yml)
 - Email text, including for password reset instructions `reset_password_instructions`:
 [/config/locales/devise.en.yml](https://github.com/impactoss/impactoss-server/blob/master/config/locales/devise.en.yml)
+
+---
 
 #### Translate to other languages
 

@@ -1,10 +1,15 @@
 ![](/assets/header.png)
+
 # Installation Guide
+
+---
+## 1. Introduction
+---
 
 This installation guide provides detailed instructions on how to configure and install IMPACT OSS. To start go to
 
-* **[Installation overview](/overview.md)** and learn about the installation process or
-* **[System components](/components.md)** for an overview of high-level system components.
+* **[>> Installation overview](/intro/overview.md)** and learn about the installation process or
+* **[>> System components](/intro/components.md)** for an overview of high-level system components.
 
 > Please note: you can download a PDF or other eBook version of this guide at https://www.gitbook.com/book/impactoss/impact-oss-installation-guide
 

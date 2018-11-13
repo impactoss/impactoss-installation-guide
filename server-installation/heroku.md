@@ -1,16 +1,22 @@
-# Heroku
+### Heroku
 
 #### Sign up
 
 [Sign up](https://signup.heroku.com) for a free account and/or [log in](https://id.heroku.com/login)
 
+---
+
 #### Set up billing
 
 Go to "account settings" > "Billing" and add your credit card details.
 
+---
+
 #### Create New App
 
 Create New App with a name of your liking.
+
+---
 
 #### Set up config variables  
 
@@ -31,16 +37,22 @@ Go to "Settings", click "Reveal Config Vars" and add
 - `ACTION_MAILER_PROTOCOL`: your server API protocol, e.g. 'https' (alternatively set in [app config](/server-config/application.md))
 - `ACTION_MAILER_ASSET_HOST`: your server API url, e.g. 'https://api.impactoss.org' (alternatively set in [app config](/server-config/application.md))
 
+---
+
 #### Recommended: install Heroku CLI
 
 - Go to https://devcenter.heroku.com/articles/heroku-cli and follow the download and installation instructions.
 - Once installed login to your Heroku account
+
+---
 
 #### Set up database
 
 Go to "Resources"
 - Search for "Heroku Postgres" add-on
 - Select and provision "Hobby Dev" for staging/development or "Standard 0" for production (you can also upgrade later)
+
+---
 
 #### Connect with GitHub repository
 
@@ -50,6 +62,8 @@ Go to "Deploy"
 - Select and connect to repository (previously forked to a personal or organization account, see [Fork server source code](/server-config/source-code.md))
 - Manually deploy from "master" branch for staging/development or "production" branch for production; or
 - Enable automatic deploys
+
+---
 
 #### Initialise database
 
@@ -63,6 +77,8 @@ Initialise data according to Seed file (see [categories](/server-config/categori
 
 > Note: if there are any errors during processing your seed file, your database may end up with only some of your content created - running your seed file again can lead to duplicate entries. There wore it is recommended to reset your database `heroku pg:reset DATABASE --app your-app --confirm your-app`, and again create your tables (see above) before running your Seed file again
 
+---
+
 #### Upgrade dynos
 
 By default Heroku will be set up with free dynos for your application server "web" and the email scheduler "clock". These free dynos will automatically "go to sleep" when idle resulting in long wait times - to prevent this upgrade to the "Hobby" plan.
@@ -70,6 +86,8 @@ By default Heroku will be set up with free dynos for your application server "we
 Go to "Resource"
 - Click "Upgrade to Hobby..."
 - Select "Hobby" to upgrade the "web" dyno
+
+---
 
 #### Initialise MailGun
 
@@ -88,11 +106,15 @@ This will add the following config variables
 
 To set up MailGun with your custom domain, see [MailGun](/server-installation/mailgun.md)
 
+---
+
 #### Optional: Custom API URL
 
 To set a custom domain for your server API go to "Settings" and add your domain name, e.g. a subdomain `api.yourdomain.org`
 
 Then go to your domain registrar and update the DNS records by adding a CNAME record pointing to `api.yourdomain.org.herokudns.com`
+
+---
 
 #### Recommended: Upgrade database
 

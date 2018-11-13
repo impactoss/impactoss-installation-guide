@@ -1,8 +1,10 @@
-# Optional: Email templates
+### Optional: Email templates
 
 The email templates (html) can be configured in [/app/views/devise/mailer](https://github.com/impactoss/impactoss-server/tree/master/app/views/devise/mailer).
 
 Currently the application uses
+
+---
 
 #### Password reset instructions
 

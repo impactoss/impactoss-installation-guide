@@ -1,4 +1,4 @@
-# Admin user set-up
+### Admin user set-up
 
 At the outset the application is installed without any users. While users can be created using the application UI, at least one "admin" user is needed to allow assigning roles using the UI:
 

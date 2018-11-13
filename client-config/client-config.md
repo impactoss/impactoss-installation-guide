@@ -1,6 +1,11 @@
-# Overview: Client configuration
 
-The IMPACT OSS server is a React Javascript application.
+---
+## 4. Client configuration
+---
+
+### Overview
+
+The IMPACT OSS server is a React JavaScript application.
 
 IMPACT OSS can be configured in many different ways to suit each State's individual set up and requirements, some of which are required and some that are optional.
 

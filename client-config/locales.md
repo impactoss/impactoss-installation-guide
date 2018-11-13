@@ -1,4 +1,4 @@
-# Labels & translations
+### Labels & translations
 
 #### Labels & text files
 
@@ -19,6 +19,8 @@ Specifically you should update or review the following labels:
 - Taxonomy titles and labels for each taxonomy set up (see [Category groupings & categories](/client-config/categories.md)): `"app.containers.App.entities.taxonomies.[No].[type]"` where "[No]" is the server ID and "[type]" one off "single", "plural", "shortSingle", "shortPlural", "description" and "empty" ("description" is shown on category overview page)
 - Home page meta title: `"app.containers.HomePage.pageTitle"`
 - Home page meta description: `"app.containers.HomePage.pageDescription"`
+
+---
 
 #### Translate to other languages
 

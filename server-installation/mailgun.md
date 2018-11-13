@@ -1,7 +1,9 @@
-# MailGun
+### MailGun
 
 #### Sign up with MailGun
 https://signup.mailgun.com/new/signup
+
+---
 
 #### Add a custom domain
 
@@ -9,6 +11,8 @@ https://signup.mailgun.com/new/signup
 
 - Go to https://app.mailgun.com/app/domains/new and enter your domain, ideally a subdomain, e.g. `mg.yourdomain.org`
 - Then follow the steps provided to verify and configure your domain
+
+---
 
 #### Update your MailGun configuration in Heroku
 

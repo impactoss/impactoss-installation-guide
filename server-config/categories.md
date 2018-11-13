@@ -1,8 +1,8 @@
-# Optional: Taxonomies & categories
+### Optional: Taxonomies & categories
 
-## Database overview
+#### Database overview
 
-#### Principal entities
+##### Principal entities
 
 IMPACT OSS data model contains the following principal entities:
 
@@ -11,7 +11,7 @@ IMPACT OSS data model contains the following principal entities:
 * SDG Targets (optional): the targets set by the UN for the 17 Sustainable Development Goals (SDGs)
 * Users: the application users
 
-#### Taxonomies ("category groupings")
+##### Taxonomies ("category groupings")
 
 These entities can be classified according to multiple category groupings, also called taxonomies, that need to be set up on the server - taxonomies cannot currently be managed through the UI.
 
@@ -34,7 +34,7 @@ Finally, also the SDGs are regarded as taxonomies, classifying the SDG Targets (
 
 ---
 
-## Initialise taxonomies & categories
+#### Initialise taxonomies & categories
 
 Taxonomies should and categories could be defined in the "Seeds" file [/db/seeds.rb](https://github.com/impactoss/impactoss-server/blob/master/db/seeds.rb) that allows initialising the database with default content during installation and many common taxonomies and categories are included by default.
 
@@ -42,7 +42,7 @@ Taxonomies should and categories could be defined in the "Seeds" file [/db/seeds
 
 While categories can easily be added through the UI after the initial, installation, taxonomies can not be managed using the UI but must be updated in the database, e.g. using the Rails CLI (Command Line Interface).
 
-#### Initialise taxonomies
+##### Initialise taxonomies
 
 Here is an example for how a taxonomy can be set up in the Seeds file:
 
@@ -79,7 +79,7 @@ For each taxonomy the following attributes can be specified (see also [/db/schem
 | `groups_recommendations_default` | integer |  | if Recommendations are grouped (or subgrouped) by category in Recommendation lists. 1: primary group, 2: subgroup |
 | `groups_sdgtargets_default` | integer |  | if SDG Targets are grouped (or subgrouped) by category in SDG Target lists. 1: primary group, 2: subgroup |
 
-#### Initialise categories
+##### Initialise categories
 
 Here an example how categories can be initialised using FactoryGirl:
 

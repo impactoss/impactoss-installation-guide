@@ -1,4 +1,9 @@
-# Overview: Client installation
+
+---
+## 5. Client installation
+---
+
+### Overview
 
 To install and deploy the client you need to
 1. Build client UI locally [Build UI](/client-installation/build.md)

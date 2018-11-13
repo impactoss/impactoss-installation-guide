@@ -1,6 +1,6 @@
-# Server settings
+### Server settings
 
-## Application config
+#### Application config
 
 The application configuration file is
 [/config/application.rb](https://github.com/impactoss/impactoss-server/blob/master/config/application.rb).
@@ -10,7 +10,7 @@ Here you can set
 
 ---
 
-## Environment settings
+#### Environment settings
 
 Different environment settings are available in
 [/config/environments](https://github.com/impactoss/impactoss-server/blob/master/config/environments)
@@ -29,9 +29,10 @@ To set up your site, you will at least need to configure the procution configura
 Optionally set Action Mailer settings (alternatively set in server environment variables, see [Heroku](/server-installation/heroku.md))
 - Action mailer host and protocol: `config.action_mailer.default_url_options`
 - Action mailer asset host: `config.action_mailer.asset_host`
+
 ---
 
-## Email settings
+#### Email settings
 
 The email address used by the application when sending out emails, including for user authentication and email reminders is set in:
 - General: [/app/mailers/application_mailer.rb](https://github.com/impactoss/impactoss-server/blob/master/app/mailers/application_mailer.rb)
