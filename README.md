@@ -6,7 +6,7 @@
 ## 1. Introduction
 ---
 
-This installation guide provides detailed instructions on how to configure and install IMPACT OSS. To start go to
+This installation guide provides detailed instructions on how to configure and install **[IMPACT OSS](https://impactoss.org)**. To start go to
 
 * **[>> Installation overview](/intro/overview.md)** and learn about the installation process or
 * **[>> System components](/intro/components.md)** for an overview of high-level system components.
